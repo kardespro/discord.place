@@ -1,30 +1,30 @@
 {
   "time": {
-    "seconds": "saniye",
-    "minutes": "dakika",
+    "seconds": "saniyə",
+    "minutes": "dəqiqə",
     "hours": "saat",
     "days": "gün"
   },
   "commands": {
     "accept_policies": {
       "embed": {
-        "title": "Politikalarımız Hakkında",
-        "description": "Botu kullanmadan önce politikalarımızı kabul etmeniz gerekiyor.\nPolitikaları kabul ettikten sonra, botu istediğiniz gibi kullanabilirsiniz.\n\n- [Gizlilik Politikası](https://discord.place/legal/privacy)\n- [Hizmet Şartları](https://discord.place/legal/terms)\n- [Çerez Politikası](https://discord.place/legal/cookie)\n- [İçerik Politikası](https://discord.place/legal/content-policy)\n- [Satın Alma Politikası](https://discord.place/legal/purchase-policy)\n\nHerhangi bir sorunuz varsa, **legal@discord.place** adresinden bize ulaşabilirsiniz."
+        "title": "Siyasətlərimiz Haqqında",
+        "description": "Botu istifadə etməzdən əvvəl siyasi şərtlərimizi qəbul etməlisiniz.\nSiyasi Şərtlərimizi qəbul etdikdən sonra botu istədiyiniz kimi istifadə edə bilərsiniz.\n\n- [Gizlilik Siyasəti](https://discord.place/legal/privacy)\n- [Xidmət Şərtləri](https://discord.place/legal/terms)\n- [Çərəz Siyasəti](https://discord.place/legal/cookie)\n- [Məzmun Siyasəti](https://discord.place/legal/content-policy)\n- [Satın Alma Siyasəti](https://discord.place/legal/purchase-policy)\n\nHər hansı bir sualınız olarsa, **legal@discord.place** ünvanından bizlə əlaqə saxlayın."
       },
-      "button_label": "Politikaları Kabul Et",
-      "timeout": "Politikaları zamanında kabul etmediniz.",
-      "success": "Politikaları kabul ettiniz."
+      "button_label": "Siyasətləri qəbul et",
+      "timeout": "Siyasətlərimizi vaxtında qəbul etmədiniz.",
+      "success": "Siyasətləri qəbul etdiniz."
     },    
     "shared": {
       "errors": {
-        "missing_permissions": "Bu komutu kullanmak için yetkiniz yok.",
-        "user_quarantined": "Hesabınız karantinaya alındığından bu komutu kullanamazsınız.",
-        "server_quarantined": "Bu sunucu karantinaya alındığından bu komutu kullanamazsınız.",
-        "user_or_guild_quarantined": "Hesabınız veya bu sunucu karantinaya alındığından bu komutu kullanamazsınız.",
-        "server_owner_only": "Bu komutu kullanabilmek için sunucu sahibi olmalısınız.",
-        "unknown_error": "Bir hata oluştu: {errorMessage}",
-        "guild_only": "Bu komut sadece bir sunucuda kullanılabilir.",
-        "command_error": "Komutu çalıştırırken bir hata oluştu."
+        "missing_permissions": "Bu kommandı istifadə etmək üçün icazəniz yoxdur",
+        "user_quarantined": "Hesabınız karantində olduğu üçün bu kommanddan istifadə edə bilməzsiniz.",
+        "server_quarantined": "Siz bu kommanddan istifadə edə bilməzsiniz, çünki bu server karantindədir.",
+        "user_or_guild_quarantined": "Hesabınız vəya bu server karantinə alındığından bu kommandı istifadə edə bilməzsiniz.",
+        "server_owner_only": "Bu kommanddan istifadə etmək üçün siz server sahibi olmalısınız.",
+        "unknown_error": "Bir xəta baş verdi: {errorMessage}",
+        "guild_only": "Bu kommand sadəcə bir serverdə istifadə oluna bilər.",
+        "command_error": "Kommand işlənərkən xəta baş verdi."
       }
     },
     "emoji": {
@@ -210,69 +210,69 @@
       "human_verification_text": "Şu an **{guildName}** sunucusuna oy vereceksiniz.\n**İnsan Doğrulaması Hakkında:**\n- Size birkaç saniye içinde bir gif gösterilecek.\n- Gif'te 3 tekrar eden sayı olacak.\n- Bu sayıları ezberlemeniz gerekiyor.\n- Son sayı kaybolduktan sonra, ezberlediğiniz sayıların sırasına göre butonlara tıklamanız gerekiyor.\n- Tüm butonlara tıklamak için 10 saniyeniz olacak.\n- Başarısız olursanız, 1 dakika sonra tekrar deneyebilirsiniz.\n\n**Not:** Bu doğrulama, spam'i önlemek için sadece her üçüncü oyda gösterilir.",
       "gif_hidden_now": "Gif şimdi gizlendi. Lütfen ezberlediğiniz sayıların sırasına göre butonlara tıklayın.",
       "human_verification_failed": "Kendinizi doğrulayamadınız. 1 dakika sonra tekrar deneyebilirsiniz.",
-      "create_reminder_button_label": "Hatırlatıcı Oluştur",
-      "success": "Oy verdiğiniz için teşekkürler!",
+      "create_reminder_button_label": "Xatırladıcı Yarat",
+      "success": "Səs verdiyiniz üçün təşəkkürlər!",
       "logging_messages": {
-        "user_voted": "**@{username}** ({userId}) oy verdi."
+        "user_voted": "**@{username}** ({userId}) səs verdi."
       }
     },
     "info": {
       "errors": {
-        "server_not_listed": "Bu sunucu discord.place üzerinde listelenmemiş.",
-        "invite_was_deleted": "Davet bağlantısı silindi.",
-        "user_not_found": "Kullanıcı bulunamadı.",
-        "not_set": "Belirtilmemiş",
-        "no_biography": "Biyografi bulunamadı."
+        "server_not_listed": "Bu server discord.place üzərində sıyahılandırımamışdır",
+        "invite_was_deleted": "Dəvət linki silindi.",
+        "user_not_found": "İstifafəçi tapılmadı.",
+        "not_set": "Müəyyən edilməmiş",
+        "no_biography": "Biyografi tapılmadı."
       },
       "subcommands": {
         "server": {
           "embed": {
             "fields": [
               {
-                "name": "Davet",
-                "value": "[Katılmak için buraya tıkla.]({inviteUrl})"
+                "name": "Dəvət",
+                "value": "[Qatılmaq Üçün Buraya toxun.]({inviteUrl})"
               },
               {
-                "name": "Oylar",
-                "value": "(0)[Bu sunucunun **{totalVotes}** oyu var.];(1-inf)[Bu sunucunun **{totalVotes}** oyu var.\nSon oy {lastVoter} tarafından **{date}** tarihinde verildi.];"
+                "name": "Səslər",
+                "value": "(0)[Bu serverim **{totalVotes}** səsi var.];(1-inf)[Bu serverin **{totalVotes}** səsi var.\nSon səs {lastVoter} tərəfindən **{date}** tarixində verildi.];"
               },
               {
-                "name": "Destek Sunucusu",
-                "value": "Bu sunucu Bot {bot} için destek sunucusudur."
+                "name": "Kömək Serveri",
+                "value": "Bu Server Bot {bot} üçün kömək serveridir."
               }
             ]
           },
           "buttons": {
-            "view_on_discord_place": "discord.place'de görüntüle",
-            "view_server_owner": "Sunucu Sahibini Görüntüle (@{ownerUsername})"
+            "view_on_discord_place": "discord.place'də bax",
+            "view_server_owner": "Server Sahibini İzlə (@{ownerUsername})"
           }
         },
         "user": {
           "embed": {
             "description": [
-              "Bu kullanıcının discord.place üzerinde **{totalVotes}** oyu var.",
-              "Bu kullanıcı, **{guildName}** sunucusuna **{totalVotes}** oy verdi."
+              "Bu istifadəçinim discord.place üzərində **{totalVotes}** səsi var.",
+              "Bu istifadəçi, **{guildName}** serverinə **{totalVotes}** səs verdi."
             ],
             "fields": [
               {
                 "name": "Premium",
-                "value": "Bu kullanıcı **{premiumSince}** tarihinden beri premium sahibi."
+                "value": "Bu istifadəçi **{premiumSince}** tarixindən bəri premium sahibi."
               },
               {
                 "name": "Profil",
                 "value": {
-                  "occupation": "- **Meslek** 🔨 {occupation}",
-                  "gender": "- **Cinsiyet** {gender_icon} {gender}",
-                  "location": "- **Konum** 📌 {location}",
-                  "birthday": "- **Doğum Günü** 🎂 {birthday}",
+                  "occupation": "- **Peşə** 🔨 {occupation}",
+                  "gender": "- **Cinsiyyət** {gender_icon} {gender}",
+                  "location": "- **Yer** 📌 {location}",
+                  "birthday": "- **Ad Günü** 🎂 {birthday}",
                   "stats": "👁️ **{views}** ❤️ **{likes_count}**"
                 }
               }
             ]
           },
           "buttons": {
-            "view_on_discord_place": "discord.place'de görüntüle",
-            "view_discord_place_profile": "discord.place Profilini Görüntüle"
+            "view_on_discord_place": "discord.place'də bax",
+            "view_discord_place_profile": "discord.place Profilinə bax"
           }
         }
       }
@@ -280,15 +280,15 @@
     "ping": {
       "fields": [
         {
-          "name": "Websocket Gecikmesi",
-          "value": "Bot ile Discord API'si arasındaki gecikme."
+          "name": "Websocket Gecikməsi",
+          "value": "Bot ile Discord API'si arasındakı gecikmə."
         },
         {
-          "name": "Sunucu Yanıt Süresi",
-          "value": "Sunucumuzun yanıt süresi."
+          "name": "Server cavab müddəti",
+          "value": "Serverimizin cavab müddəti."
         },
         {
-          "name": "Veritabanı Gecikmesi",
+          "name": "Verilənlər Bazası Gecikməsi",
           "value": "Bot ile veritabanı arasındaki gecikme."
         }
       ]
@@ -303,19 +303,19 @@
               "value": "{platform} {arch}"
             },
             {
-              "name": "İşletim Sistemi",
+              "name": "İşlətim Sistemi",
               "value": "{version} {release}"
             },
             {
-              "name": "Bellek",
+              "name": "Yaddaş",
               "value": "{totalMemory} GB toplam, {freeMemory} GB boş"
             },
             {
               "name": "CPU",
-              "value": "{cpuModel} | Çalışma Süresi: {uptime}"
+              "value": "{cpuModel} | İşləmə müddəti: {uptime}"
             },
             {
-              "name": "Kendi sanal özel sunucunuzu alın",
+              "name": "Öz Virtual serverinizi alın!",
               "value": "{nodestyText} 🔥"
             }
           ]
@@ -324,44 +324,44 @@
           "title": "Bot",
           "fields": [
             {
-              "name": "Sürümler",
+              "name": "Versiyalar",
               "value": "Node.js: {nodeVersion} | Discord.js: {discordVersion}"
             },
             {
-              "name": "Çalışma Süresi",
+              "name": "İşləmə Müddəti",
               "value": "{uptime}"
             },
             {
-              "name": "Sunucular",
+              "name": "Serverlər",
               "value": "{guildsCount}"
             },
             {
-              "name": "Kullanıcılar",
+              "name": "İstifadəçilər",
               "value": "{usersCount}"
             }
           ]
         },
         {
-          "title": "Veritabanı Koleksiyonları",
+          "title": "Verilənlər Bazası Kolleskiyaları",
           "fields": [
             {
               "name": "Botlar",
               "value": "{botsCount}"
             },
             {
-              "name": "Emojiler",
+              "name": "Emojilər",
               "value": "{emojisCount}"
             },
             {
-              "name": "Emoji Paketleri",
+              "name": "Emoji Paketləri",
               "value": "{emojiPacksCount}"
             },
             {
-              "name": "Profiller",
+              "name": "Profillər",
               "value": "{profilesCount}"
             },
             {
-              "name": "Sunucular",
+              "name": "Serverlər",
               "value": "{serversCount}"
             },
             {
@@ -369,7 +369,7 @@
               "value": "{templatesCount}"
             },
             {
-              "name": "Sesler",
+              "name": "Səslər",
               "value": "{soundsCount}"
             },
             {
@@ -401,82 +401,82 @@
     },
     "reminders": {
       "errors": {
-        "no_reminders_found": "Aktif hatırlatıcı bulunamadı."
+        "no_reminders_found": "Aktif Xatırladıcı tapılmadı."
       },
       "embed": {
-        "title": "Aktif Hatırlatıcılar",
+        "title": "Aktif Xatırladıcılar",
         "description": [
-          "{reminderCount} aktif hatırlatıcınız var.",
-          "Bu sunucu için {time} tekrar oy kullanabileceksiniz."
+          "{reminderCount} aktif xatırladıcı var.",
+          "Bu server üçün {time} təkrar səs istifadə edə biləcəksiniz."
         ]
       }
     }  
   },
   "vote_rewards": {
-    "reward_role_deleted": "{roleId} ID'li rol, sunucuda bulunamadığı için veritabanından silindi.",
-    "reward_role_added": "**@{username}** ({userId}) kullanıcısı {vote} kez oy verdiği için **{roleName}** ödül rolü verildi.",
-    "reward_role_add_error": "**@{username}** ({userId}) kullanıcısına **{roleName}** ödül rolü verilemedi. (Hata: {errorMessage})",
-    "reward_role_added_audit_reason": "Sunucu için {requiredVotes} kez oy verdi. Bu rol ödül olarak verildi.",
-    "reward_role_added_dm_message": "### Tebrikler!\n**{guildName}** sunucusunda {vote} kez oy verdiğiniz için size **{roleName}** ödül rolü verildi!"
+    "reward_role_deleted": "{roleId} ID'li rol, serverdə tapılmadığı üçün verilənlər bazasından silindi.",
+    "reward_role_added": "**@{username}** ({userId}) istifadəçisi {vote} dəfə səs verdiyi üçün **{roleName}** mükafat rolu verildi.",
+    "reward_role_add_error": "**@{username}** ({userId}) istifadəçisinə **{roleName}** mükafat rolu verilə bilinmədi. (Xəta: {errorMessage})",
+    "reward_role_added_audit_reason": "Server üçün {requiredVotes} dəfə səs verdi. Bu rol mükafat olarak verildi.",
+    "reward_role_added_dm_message": "### Təbriklər!\n**{guildName}** serverində {vote} dəfə səs verdiyiniz üçün sizə **{roleName}** mükafat rolu verildi!"
   },
   "interaction": {
     "buttons": {
       "quick_vote": {
         "errors": {
-          "guild_not_found": "Sunucuyu bulamadım.",
-          "server_not_listed": "Bu sunucu discord.place'de listelenmemiş.",
-          "member_not_found": "Sunucuda değilsiniz."
+          "guild_not_found": "Serveri tapa bilmədim.",
+          "server_not_listed": "Bu server discord.place'də sıyahılandırılmamışdır.",
+          "member_not_found": "Serverde yoxsunuz."
         },
-        "button_label": "Hızlıca Oy Ver: {guildName}",
-        "reminder": "**{guildName}** sunucusu için tekrar oy verebilirsiniz."
+        "button_label": "Tez Səs Ver: {guildName}",
+        "reminder": "**{guildName}** serveri üçün təkrar səs verəbilərsiniz."
       },
       "create_reminder": {
         "errors": {
-          "guild_not_found": "Sunucuyu bulamadım.",
-          "server_not_listed": "Bu sunucu discord.place'de listelenmemiş.",
-          "user_not_voted": "Oy vermediğiniz bir sunucu için hatırlatıcı oluşturamazsınız.",
-          "reminder_already_created": "Bu sunucu için zaten bir hatırlatıcı oluşturmuşsunuz."
+          "guild_not_found": "Serveri tapa bilmədim.",
+          "server_not_listed": "Bu server discord.place'də sıyahılandırılmamışdır.",
+          "user_not_voted": "Səs vermədiyiniz server üçün xatırlatma yarada bilməzsiniz.",
+          "reminder_already_created": "Bu server üçün bir xatırkadıcı yaratmısınız."
         },
-        "success": "Hatırlatıcı oluşturuldu ve {date} tarihinde gönderilecek."
+        "success": "Xatırladıcı yaradıldı və {date} tarixində göndəriləcək."
       },
       "human_verification": {
         "errors": {
-          "guild_not_found": "Sunucuyu bulamadım.",
-          "server_not_listed": "Bu sunucu discord.place'de listelenmemiş.",
-          "member_not_found": "Sunucuda değilsiniz.",
-          "timeout": "{seconds} saniye sonra tekrar deneyebilirsiniz.",
+          "guild_not_found": "Serveri tapa bilmədim.",
+          "server_not_listed": "Bu server discord.place'də sıyahılandırılmamışdır.",
+          "member_not_found": "Serverdə deyilsiniz.",
+          "timeout": "{seconds} saniyə sonra təkrar cəhd edə bilərsiniz.",
           "failed": "Kendinizi doğrulamada başarısız oldunuz. 1 dakika sonra tekrar deneyebilirsiniz.",
-          "number_already_selected": "Bu numarayı zaten seçtiniz."
+          "number_already_selected": "Bu nömrəni seçmisiniz."
         },
-        "success": "Başarıyla kendinizi doğruladınız.",
-        "numbers_selected": "Seçilen numaralar: {numbers}"
+        "success": "Uğurla özünüzü doğruladınız.",
+        "numbers_selected": "Seçilən nömrələr: {numbers}"
       }
     }
   },
   "server_panel_message": {
     "embeds": [
       {
-        "title": "**Oylar**",
-        "description": "- Bu sunucuya toplamda ***{serverVotes}*** kez ***{totalVoters}*** kullanıcı tarafından oy verilmiştir.",
+        "title": "**Səs**",
+        "description": "- Bu server toplamda ***{serverVotes}*** dəfə ***{totalVoters}*** istifadəçi tərəfindən səs verilmiştir.",
         "table": {
-          "vote": "Oy"
+          "vote": "Səs"
         }
       },
       {
-        "title": "**Aylık Oylar**",
-        "description": "- Bu sunucu, bu ay ***{count}*** oy kazanmıştır."
+        "title": "**Aylıq Səslər**",
+        "description": "- Bu server, bu ay ***{count}*** səs qazanmışdır."
       },
       {
-        "title": "**Ödüller**",
-        "description": "- Bu sunucunun ***{count}*** oy ödülü vardır.",
+        "title": "**Mükafatlar**",
+        "description": "- Bu serverin ***{count}*** səs mükafatı vardır.",
         "table": {
-          "unknown_role": "bilinmeyen"
+          "unknown_role": "bilinməyən"
         }
       }
     ],
     "buttons": {
-      "vote": "Oy Ver",
-      "view_on_discord_place": "discord.place'de Görüntüle"
+      "vote": "Səs ver",
+      "view_on_discord_place": "discord.place'də Bax"
     }
   }
 }
